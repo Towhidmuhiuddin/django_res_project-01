@@ -1,0 +1,138 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>blog</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">	
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="http://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body>
+    
+        <!-----------------------navbar Start here-------------------------->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#">WestWood</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="/about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/blog">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="/contract">Contact</a>
+            </li>
+            
+
+            </ul>
+            <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search here" aria-label="Search">
+            <button class="btn btn-outline-success bg-warning" type="submit">Search</button>
+            </form>
+        </div>
+        </div>
+    </nav><br>
+    <!--------------------------------navbar end here------------------------------------>
+    <h1 class="text-center">Google Map</h1>
+    <div class="cotainer m-5 p-3 pt-0">
+        <div class="row">
+            <div class="col-md-12">
+                <img src="{% static 'images/map.gif'%}" class="d-block w-100" alt="..." height="400">
+            </div>
+        </div>
+    </div>
+
+    <div class="cotainer m-4">
+        <div class="row m-4 p-2">
+            <div class="col-md-6">
+                <h2>WestWood</h2>
+                <img src="{% static 'images/buliding.jpg'%}" class="d-block w-100" alt="..." height="400">
+                <p>Westwood is a commercial and residential neighborhood in the northern central portion of the Westside region of Los Angeles, California. It is the home of the University of California, Los Angeles (UCLA). Bordering the campus on the south is Westwood Village, a major regional district for shopping, dining, movie theaters, and other entertainment.
+
+                    Wilshire Boulevard through Westwood is a major corridor of condominium towers, on the eastern end[3] and of Class A office towers, on the western end. Westwood also has residential areas of multifamily and single family housing, including exclusive Holmby Hills. The neighborhood was developed starting in 1919, and UCLA opened in 1929, while Westwood Village was built up starting in 1929 through the 1930s.
+                    
+                    
+                    Contents
+                    1	Geography
+                    2	History
+                    3	Demographics
+                    4	Entertainment and cultural facilities
+                    5	Parks and recreation
+                    6	Government and infrastructure
+                    7	Education
+                    8	Notable residents
+                    9	References
+                    10	External links</p>
+            </div>
+            <div class="col-md-6">
+                <h2>History of WestWood</h2>
+                <img src="{% static 'images/history.jpg'%}" class="d-block w-100" alt="..." height="400">
+                <p>Meanwhile, the Southern Branch of the University of California had been established on Vermont Avenue in Los Angeles, where enrollment expanded so rapidly that by 1925 the institution had outgrown the site. The selection of a new campus in the Westwood hills was announced on March 21, 1925. The owners of the estate, the Janss brothers, agreed to sell the property for approximately $1 million ($12 million in 2020 dollars), less than one-third the land's value. Municipal bond measures passed by Los Angeles, Santa Monica, Beverly Hills and Venice provided for that amount. Proposition 10, a state bond measure passed that year, provided $3 million for construction. Thus the University of California at Los Angeles was established in Westwood; ground was broken on September 12, 1927, and the campus opened for regular classes on September 20, 1929.[20]</p>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="cotainer m-4">
+        <div class="row m-4 p-2">
+            <div class="col-md-6">
+                    <h2>Fasion</h2>
+                    <img src="{% static 'images/fasion1.jpg'%}" class="d-block w-100" alt="..." height="400">
+                    <p>Meanwhile, the Southern Branch of the University of California had been established on Vermont Avenue in Los Angeles, where enrollment expanded so rapidly that by 1925 the institution had outgrown the site. The selection of a new campus in the Westwood hills was announced on March 21, 1925. The owners of the estate, the Janss brothers, agreed to sell the property for approximately $1 million ($12 million in 2020 dollars), less than one-third the land's value. Municipal bond measures passed by Los Angeles, Santa Monica, Beverly Hills and Venice provided for that amount. Proposition 10, a state bond measure passed that year, provided $3 million for construction. Thus the University of California at Los Angeles was established in Westwood; ground was broken on September 12, 1927, and the campus opened for regular classes on September 20, 1929.[20]</p>
+            </div>    
+            <div class="col-md-6">
+                    <h2>Our Collection</h2>
+                    <img src="{% static 'images/collection.jpg'%}" class="d-block w-100" alt="..." height="400">
+                    <p>You can group your products into collections to make it easier for customers to find them by category. Here are a few examples of collections that you might create:
+    
+                        clothes for men, women, or children
+                        items of a certain type, such as lamps, cushions, or rugs
+                        items on sale
+                        items in a certain size or color
+                        seasonal products, such as holiday cards and decorations
+                        Municipal bond measures passed by Los Angeles, Santa Monica, Beverly Hills and Venice provided for that amount. Proposition 10, a state bond measure passed that year  a major regional district for shopping, dining, movie theaters, and other entertainment. Wilshire Boulevard through Westwood is a major corridor of condominium towers, on the eastern end[3] and of Class A office towers
+                    </p>
+            </div>
+        </div>
+    </div>
+
+<!--------------------------------Footer------------------>
+<footer class="bg-primary text-white position-relative p-0 m-0">    
+    <h6 class="text-center mt-2">
+    <section class="footer">
+        
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>		
+        </div>
+        <p>Made with by<i class="fa fa-heart-o">Mohammad Towhid muhiuddin</i><br>
+        © Copyright 2011-2022 www.westwood.com. All rights reserved. Developed by WestWood.</p>
+    </section>
+    </h6>
+    
+    </footer>
+    <!---------------------------------footer end------------------------->
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
